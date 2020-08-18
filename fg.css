@@ -1,0 +1,583 @@
+*{
+    box-sizing:border-box;
+}
+body{
+
+    font-family:Muli ;
+    background: #F5FAFE;
+}
+ul{
+    margin:0px;
+    padding:0px;
+}
+p,h1,h2,h3,h6{
+padding:0;
+margin:0;
+}
+a{
+    text-decoration: none;
+}
+.navtop,.navbar{
+    justify-content: space-between;
+    display: flex;
+    padding-top:25px;
+    
+    
+}
+.navtop a{display:inline-block;
+    height:30px;
+    padding-left:98px;
+    text-decoration: none;
+    color:black;
+}
+.navtop .BTP{background: url("Vector.png")no-repeat center;
+    background-position:60px -11%;
+
+}
+.navtop .Loyalty{
+    background:url("Vector2.png") no-repeat;
+    background-position:60px -11%;
+
+}
+.conteiner{
+    width:1110px;
+    margin:0 auto;
+}
+.navtop{
+    font-size: 10px;
+    height: 60px;
+}
+.bold{
+    font-weight: bold;
+}
+.navbar{
+    align-items: center;
+    padding-top:51px ;
+    padding-bottom:45px ;
+}
+.free{
+    background:white;
+}
+.logo{
+    font-family: Luckiest Guy;
+}
+.logo .tour{
+    color:red;
+}
+/*ЮЗер*/
+.user{display: flex;
+    align-items: center;
+}
+.user a{
+    padding-left:50px;
+}
+.cearcle{
+    background:red;
+    border:1px solid red;
+    width: 20px; /* задаете свои размеры */
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top:-42px;
+    right:-17px;
+    text-align: center;
+    
+}
+.search input {
+    border-radius:10px;
+    background: #F5FAFE;
+    border:none;
+    width:350px;
+    padding:12px 0 13px 23px;
+}
+.search button{
+background: #EC1F46;
+border:none;
+padding:6px  25px 6px 25px;
+position: relative;
+right: 80px;
+top:7px;
+text-align: center;
+border-radius:  0px 10px 10px 0px;
+}
+.basket{
+    height: 30px;
+}
+/*navbar_bottom*/
+.navbar_bottomfree{
+    background:#0A223D;
+}
+.navbar_bottom{
+    display: flex;
+    justify-content: space-between;
+
+
+padding:31px 0 ;
+text-transform: uppercase;
+}
+.navbar_bottom a{
+text-decoration: none;
+color:white;
+font-size: 14px;
+}
+.bread_crumbs{
+    padding:20px;
+    padding-left:0;
+    background:#F5FAFE;
+
+}
+.bread_crumbs a{
+color: #333333;
+}
+/*info_hotel*/
+.number{
+    color:white;
+}
+.ratings p{
+    font-size: 8px;
+    color:white;
+}
+.small{
+    font-size: 10px;
+}
+.hotel_info,.hotel_name{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hotel_name{
+    align-items: center;
+    
+    height: 50px;
+}
+.hotel_name h1{
+ 
+   padding-top: 20px;
+    font-size:24px; 
+    background:url("stars.png") no-repeat;
+    background-position: 3px 10px;
+}
+.flash_offer{ margin-top: 20px;
+    background: #EC1F46;
+    color:white;
+    border:none;
+    padding:3px 9px 14px 9px;
+ border-radius: 3px;
+ margin-left:23px;
+ font-size: 10px;
+ height: 13px;
+
+}
+.ratings{border-radius: 4px;
+    background:#EC1F46;
+    padding:8px;
+    text-align: center;
+    margin-top:7px;
+}
+/*slides-locations*/
+.location_price{
+    display:flex;
+    margin-top:20px;
+}
+.height{
+    height: 500px;
+}
+.info_card{display: flex;
+    flex-flow:  row wrap;
+    justify-content: space-between;
+    padding:29px 26px;
+    height: 210px;
+    width:350px;
+    border-radius:8px;
+    background: #0A223D;
+    margin-left: 30px;
+    color:white;
+    font-family: Nunito;
+}
+.price_pernight{
+    font-weight:800;
+    font-size: 24px;
+}
+.info_card h3{
+    margin-top:17px;
+}
+ul{font-size: 12px;
+    list-style: none;
+}
+ ul li.tell{font-size: 18px;
+    margin-top:50px;
+    background: url("phone.png")no-repeat;
+    background-position: 2px 5px;
+    padding-left:20px;
+}
+ul li.guests{
+    background: url("Guests.png")no-repeat;
+    background-position: 3px 5px;
+    padding-left:20px;
+
+}
+ul li.room{
+    background: url("room.png")no-repeat;
+    background-position: 1px 1px;
+    padding-left:20px;
+}
+.options{
+    background: #EC1F46;
+    padding:13px 84px;
+    border:none;
+    color:white;
+    border-radius: 4px;
+}
+.info{
+    display: flex;
+    flex-flow: column;
+    
+}
+.location{margin-top:27px;
+    margin-left: 30px;
+}
+
+/*tabs*/
+.tabs{
+    display:flex;
+    justify-content: space-between;
+    margin-top:67px;
+    color: #333333;
+}
+.tabs a{
+    color: #333333;
+    font-size: 14px;
+}
+.tabs a:hover{
+    border-bottom: 5px solid red;
+}
+.activ{color:red;
+    padding-bottom: 14px;
+    border-bottom: 5px solid red;
+}
+.pack {justify-content: space-between;
+    display:flex;
+    flex-flow: row wrap;
+}
+.pack h3{color:white;
+    background: #0A223D;
+    padding:10px;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.pack .spec{width:538px;
+height:200px;
+background:white;
+margin-bottom:30px;
+}
+
+
+.pack ul li{padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    background: url("vec.png") no-repeat;
+    background-position:1px 4px;
+    width:300px;
+    margin-bottom: 16px;
+}
+.pack ul li::before{
+    content:url(v.png);
+left:-25px;
+position:relative;
+    
+    
+}
+.pack .bottomtext{
+    margin-top:50px;
+    display: block;
+}
+.pack .april{
+    background:url("calendar.png") no-repeat;
+}
+.pack .summer{
+    width:100%;
+    height: 500PX;
+    margin-top: 50px;
+}
+.pack .summery{
+    display: flex;
+    width:100%;
+    height: 500px;
+    flex-flow: row wrap;
+}
+
+.pack .another{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+.pack ul h4{
+    color:red;
+    padding-left: 3px;
+}
+
+.bluhaven{margin-top:30px;
+    width:730px;
+}
+.packages div{
+    width:350px;
+}
+.bluhavencard{
+    
+    padding:47px 21px 31px 44px;
+    height: 500px;
+    width:364px;
+    border-radius:0px 8px  8px 0px;
+    background:#0A223D;
+ 
+    color:white;
+    font-family: Nunito;
+}
+.bluhavencard ul{
+    padding:0px;
+}
+.name{padding-left: 20px;
+    background:url("Guests.png") no-repeat;
+    background-position: 3px 5px;
+}
+.bluhaven{
+    display: flex;
+}
+.other h1{margin-bottom:65px;
+    text-align:center;
+    margin-top:100px;
+}
+.nextcard{
+    width: 350px;
+height: 500px;
+background:#0A223D;
+border-radius: 9px;
+color:white;
+margin-left:30px;
+margin-top:30px;
+}
+
+.card{
+    display: flex;
+    flex-flow: row wrap;
+}
+.pack .another li{
+    width:222px;}
+
+    .nextcard h3{
+        margin-top :30px;
+      
+    }
+    .nextcard ul{
+        margin-left:0;
+        padding-left:0px;
+    }
+    .margin{
+        margin-left:0;
+    }
+    .forcard{
+        margin-top:37px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .oldprice,.newprice{
+        display: block;
+    }
+    .oldprice{text-decoration: line-through;
+        ;
+        font-size: 14px;
+    }
+    .newprice{
+        font-size: 24px;
+    }
+    .forcard button{
+        background:red;
+        border:none;
+        border-radius: 3px;
+        padding:10px 27px;
+        color:white;
+    }
+    .padding{
+        margin:30px 30px;
+    }
+    .sub{
+        background:url("mounting.png") no-repeat;
+        margin-top :100px;
+    }
+    .background{
+        padding:40px;
+        background: rgba(10, 34, 61, 0.8);
+    }
+    .newsletter{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .email{
+        padding:20px 196px  20px 33px;
+        border-radius: 10px;
+        border:none;
+    }
+    .subscrube button{
+       background: #EC1F46;
+        border: none;
+        padding: 19px 25px 21px 25px;
+        position: relative;
+        right: 96px;
+        top: -1px;
+        text-align: center;
+        border-radius: 0px 10px 10px 0px;
+        color:white;
+    }
+    .newsletter h5,h1{
+        color:white;
+        font-family: Muli;
+    }
+    .newsletter h1{
+text-transform: uppercase;
+
+    }
+    .photo button{
+        background:red;
+padding:7px 20px;
+border:none;
+border-radius: 3px;
+color:white;
+margin-top:25px;
+    }
+    .photo{
+        display: flex;
+        height: 200px;
+        justify-content: center;
+        color:white;
+    }
+    
+    .photo div{
+        margin-right:30px;
+        width:255px;
+        padding-top:147px;
+        padding-left:26px;
+        padding-right:26px;
+        height: 255px;
+        font-size: 16px;
+line-height: 20px;
+border-radius: 5px;
+    }
+    .activities{ height: 288px;
+        margin-top:100px;
+        text-transform: uppercase;
+    }
+    .photo1{
+        background:url("photo1.png") no-repeat;
+
+    }
+    .photo2{
+        background:url("photo2.png") no-repeat;
+        
+    }
+    .photo3{
+        background:url("photo3.png") no-repeat;
+        
+    }
+    .photo4{
+        background:url("photo4.png") no-repeat;
+        
+    }
+    footer{
+        margin-top:200px;
+        height:900px;
+        background: #0A223D;
+    }
+    .plan{padding:20px;
+      color:white;
+font-family: Luckiest Guy;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 64px;
+
+    }
+    .red{
+        color:red;
+    }
+    .end{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .end div{
+        flex:1 1 250px;
+    }
+    footer{
+        color:white;
+        padding-top:108px;
+        padding-right: 169px;
+        padding-left:169px ;
+    }
+    footer ul{padding-top:20px
+
+    }
+    footer ul li{
+        padding-bottom: 5px;
+        
+    }
+    footer ul li a{
+        color:white;
+    }
+    .business{
+        background:url("loc.png") no-repeat;
+    }
+    .time{ background:url("call.png") no-repeat;
+        background-position:0px 36px;
+
+        }
+        .time ul {padding-left:0px;}
+    
+    .sunday{ background:url("mas.png") no-repeat;}
+  footer .contact li.time,.business,.sunday{
+    padding-left: 40px;
+  }
+  .contact{
+      display: flex;
+  }
+  .info{
+      display: flex;
+      flex-flow: row wrap;
+    justify-items: end;
+  }
+  footer form {
+      margin-top:20px;
+  }
+  footer form div{
+  
+    flex:1 1 260px;
+  }
+  footer form textarea{
+      display: block;
+      
+  }
+  footer form div input{
+      width:255px;
+      height: 50px;
+      border-radius: 4px;
+      border:none;
+  }
+  footer button{
+      padding:18px 66px;
+      background:red;
+      border:none;
+      border-radius:5px;
+      margin-top:20px;
+      color:white;
+  }
+  .footerbottom{margin-top:200px;
+      text-align:center;
+
+  }
+  .footerbottom a{
+      color:white;
+      margin-left:10px;
+  }
+  
